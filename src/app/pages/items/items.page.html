@@ -1,0 +1,13 @@
+<app-search class="menu" [query]="query" (queryChange)="goToItems($event)"></app-search>
+
+<app-center>
+    <app-categories [categories]="categories$ | async"></app-categories>
+    <div class="row center-xs middle-xs" *ngIf="(total$ | async) === 0" style="background-color: white;height: 180px;">
+        <div class="col-xs-12">
+            <span>Sin resultados</span>
+        </div>
+    </div>
+    <div>
+        <app-item (itemSelected)="showItem($event)" [class.firstItem]="i===0" *ngFor="let item of (items$ | async); index as i" [item] = item></app-item>
+    </div>
+</app-center>

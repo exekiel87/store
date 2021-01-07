@@ -1,0 +1,63 @@
+.divcontainer{
+    background-color: #fff;
+    padding: 32px;
+    margin-bottom: 50px;
+}
+.picture{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    height: 100%;
+}
+
+.pictureContainer{
+    max-height: 680px;
+}
+
+.description-title{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.35;
+    color: rgba(0,0,0,.8);
+    margin-bottom: 32px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 32px;
+    color:#333;
+}
+
+.condition{
+    font-size: 14px;
+    font-weight: 300;
+    color: #666; 
+    margin-bottom: 16px;   
+}
+
+.conditionText{
+    text-transform: capitalize;
+}
+
+.price{
+    font-size: 46px;
+    font-weight: bold;
+    color:#333;
+    margin-bottom: 32px;
+}
+
+.buy{
+    width: 100%;
+    font-size: 24px;
+    padding: 15px;
+    background-color: #3483FA;
+}
+
+.product{
+    margin-bottom: 20px;
+}
+
+.description{
+    max-width: 680px;
+}

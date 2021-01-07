@@ -1,0 +1,26 @@
+<div class="header row center-xs no-margin">
+    <div class="col-xs-12 maxWidth">
+        <div class="row center-xs" >
+            <div class="col-xs-2 col-md-1 no-padding-left text-align-left">
+                
+                <img src="./assets/Logo_ML.png" srcset="./assets/Logo_ML@2x.png.png 2x">
+                                   
+            </div>
+            <div class="col-xs-9 col-md-10 no-padding-right">
+                <div class="form">
+                    <form #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate>
+
+                        
+                        <input name="query" [ngModel]="query" required class="search" type="text" autofocus placeholder="Nunca dejes de buscar...">
+                        
+                        <button class="send">
+                            <img src="./assets/ic_Search.png" srcset="./assets/ic_Search@2x.png.png 2x">
+                        </button>
+                        
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,52 @@
+.divcontainer{
+    padding: 16px;
+    margin-bottom: 1px;
+    background-color: #fff;
+}
+
+.description{
+    text-align: left;
+    padding-left: 16px;
+}
+
+.price{
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+
+.image{
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+.p-title{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: normal;
+    color: #333;
+}
+
+.shipping{
+    width: 20px;
+}
+
+:host-context(.firstItem) .divcontainer{
+    border-radius: 5px 5px 0 0;
+}
+
+.picture, .title{
+    cursor: pointer;
+}
+
+.picture{
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.picture-container{
+    width: 180px;
+    height: 180px;
+    padding: 0;
+}

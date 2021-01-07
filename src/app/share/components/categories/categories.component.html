@@ -1,0 +1,7 @@
+<div class="divcontainer row start-xs">
+    <div class="col-xs-12 colCategories">
+        <a *ngFor="let category of categories; index as i">
+            <span *ngIf="i!==0"> > </span>{{category}}
+        </a>
+    </div>
+</div>

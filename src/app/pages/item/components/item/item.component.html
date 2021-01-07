@@ -1,0 +1,28 @@
+<div class="row divcontainer">
+    <div class="col-xs-12">
+        <div class="row start-xs product">
+            <div class="col-xs-12 col-md-8 pictureContainer">
+                <img class="picture" [src]="item.picture" width="1129" height="557">
+            </div>
+            <div class="col-xs-12 col-md-4">
+
+                <div class="condition"><span class="conditionText">{{item.condition}}</span> - {{item.sold_quantity}} vendidos</div>
+                <div class="title">{{item.title}}</div>
+                <div class="price">{{item.price.currency | currency}}  {{item.price.amount}}</div>
+                <div><button class="buy" type="button" mat-flat-button color="primary">Comprar</button></div>
+            </div>
+        </div>
+        <div class="row start-xs">
+            <div class="col-xs-12 col-md-8 description">
+                <h2 class="description-title">Descripción del producto</h2>
+                <p>{{item.description}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+

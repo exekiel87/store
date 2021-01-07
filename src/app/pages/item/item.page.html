@@ -1,0 +1,10 @@
+<app-search class="menu" (queryChange)="goToItems($event)"></app-search>
+
+<app-center>
+    <div>
+        <app-categories [categories]="categories$ | async"></app-categories>
+        
+        <app-item *ngIf="(item$ | async) as item" [item]="item"></app-item>
+
+    </div>
+</app-center>

@@ -1,0 +1,49 @@
+.header{
+    background-color: #ffe600;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;    
+}
+
+.form{
+    background-color: #fff159;
+    position: relative;
+}
+.search{
+    color: #333;
+    font-size: 18px;
+    font-family: inherit;
+    border-radius: 2px;
+    padding: 7px 60px 9px 15px;
+    border: 0 rgba(0, 0, 0, 0.2);
+    -webkit-user-select: none;
+    user-select: none;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    outline: 0;
+    width: 100%;
+}
+.send{
+    border-radius: 2px;
+    background-color: #eee;
+    border: 0 rgba(0, 0, 0, 0.2);
+    outline: 0;
+    right: 0;
+    position: absolute;
+    cursor: pointer;
+    -webkit-user-select: none;
+    height: 100%;
+    padding: 9px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+:host-context(.menu) .header {
+    margin-bottom: 16px;
+}
+
